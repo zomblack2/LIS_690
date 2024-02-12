@@ -4,21 +4,21 @@ Using scopus.bib file on virtual machine
 
 ## Basic Commands
 
-  1.   grep "Irish Dance" scopus.bib
+1. grep "Irish Dance" scopus.bib
 - looks specifically for any strings that match the string in quotations
-  2.   grep -i "irish dance" scopus.bib
+2. grep -i "irish dance" scopus.bib
 - ignores case with -i
-  3.   grep -vi "irish dance" scopus.bib
+3. grep -vi "irish dance" scopus.bib
 - ignores case with -i and searches for anything that does not match the string with -v
-  4.   grep -vi "^irish dance" scopus.bib
+4. grep -vi "^irish dance" scopus.bib
 - ignores case with -i and searches for all lines that do not match "irish dance" at the beginning of the line because of the ^
-  5.   grep -vi "irish$" scopus.bib
+5. grep -vi "irish$" scopus.bib
 - ignores case with -i and searches for all lines that do not match "irish" at the end of the line because of the $
-  6.   grep -vic "irish$" scopus.bib
+6. grep -vic "irish$" scopus.bib
 - counts the number of matching lines excluding the header
-  7.   grep -Ei "(dance|music)" scopus.bib
+7. grep -Ei "(dance|music)" scopus.bib
 - searches for any string that matches dance or music (| is or and called an infix operator) 
-  8.   grep -i "\<dance\>" scopus.bib or grep -wi "dance" scopus.bib
+8. grep -i "\<dance\>" scopus.bib or grep -wi "dance" scopus.bib
 - searches for only whole words with \<word\> or -w
 
 ## Advanced Commands
