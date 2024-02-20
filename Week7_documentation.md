@@ -31,7 +31,7 @@ apt command is used to install, update, and uninstall software
       sudo apt clean
 - removes extra files and frees up disk space
 
-## Library Search
+# Library Search
 yaz-client - a tool that serves as a gateway to information retrieval using the Z39.50 protocol
 ### Installation
       apt search yaz
